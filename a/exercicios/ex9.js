@@ -9,29 +9,28 @@ e o aluno será aprovado.*/
 
 function arredondaNota(nota) {
     if (nota < 38) {
-      return nota; // Não é feito nenhum arredondamento, nota abaixo de 38 resulta em reprovação
+      return nota
     }
   
-    // Verifica a diferença entre a nota e o próximo múltiplo de 5
-    const diferenca = 5 - (nota % 5);
+    const diferenca = 5 - (nota % 5)
   
     if (diferenca < 3) {
-      // Arredonda a nota para o próximo múltiplo de 5
-      return nota + diferenca;
+      
+      return nota + diferenca
     }
   
-    return nota; // A nota não é arredondada
+    return nota
   }
   
-  const notaAluno1 = 84;
-  const notaArredondadaAluno1 = arredondaNota(notaAluno1);
-  console.log("Nota arredondada do aluno 1:", notaArredondadaAluno1);
+  const notaAluno1 = 84
+  const notaArredondadaAluno1 = arredondaNota(notaAluno1)
+  console.log("Nota arredondada do aluno 1:", notaArredondadaAluno1)
   
-  const notaAluno2 = 29;
-  const notaArredondadaAluno2 = arredondaNota(notaAluno2);
-  console.log("Nota arredondada do aluno 2:", notaArredondadaAluno2);
+  const notaAluno2 = 29
+  const notaArredondadaAluno2 = arredondaNota(notaAluno2)
+  console.log("Nota arredondada do aluno 2:", notaArredondadaAluno2)
   
-  const notaAluno3 = 38;
-  const notaArredondadaAluno3 = arredondaNota(notaAluno3);
-  console.log("Nota arredondada do aluno 3:", notaArredondadaAluno3);
+  const notaAluno3 = 38
+  const notaArredondadaAluno3 = arredondaNota(notaAluno3)
+  console.log("Nota arredondada do aluno 3:", notaArredondadaAluno3)
   

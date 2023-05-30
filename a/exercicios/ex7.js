@@ -13,6 +13,6 @@ function calcularBhaskara(ax2, bx, c) {
   }
   
 
-  var resultado = calcularBhaskara(3, -5, 12);
+  var resultado = calcularBhaskara(3, -3, 12);
   console.log(resultado);
   

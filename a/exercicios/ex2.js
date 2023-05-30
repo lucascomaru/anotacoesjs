@@ -8,8 +8,8 @@ function classificarTriangulo(lado1, lado2, lado3) {
     }
   }
   
-  // Exemplos de uso da função
-  console.log(classificarTriangulo(5, 5, 5));   // Equilátero
-  console.log(classificarTriangulo(5, 5, 4));   // Isósceles
-  console.log(classificarTriangulo(3, 4, 5));   // Escaleno
+  
+  console.log(classificarTriangulo(5, 5, 5))   // Equilátero
+  console.log(classificarTriangulo(5, 5, 4))   // Isósceles
+  console.log(classificarTriangulo(3, 4, 5))   // Escaleno
   
