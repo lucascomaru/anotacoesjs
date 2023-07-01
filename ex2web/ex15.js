@@ -1,3 +1,1 @@
-function checarAnoBisexto(){
-    
-}
+function checarAnoBisexto() {}

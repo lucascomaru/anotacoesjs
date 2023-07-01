@@ -1,43 +1,43 @@
-function retornarMes(mes){
+function retornarMes(mes) {
     switch (mes) {
         case 1:
-            console.log('Janeiro')
+            console.log('Janeiro');
             break;
         case 2:
-            console.log('Fevereiro')
+            console.log('Fevereiro');
             break;
         case 3:
-            console.log('JMarço')
+            console.log('JMarço');
             break;
         case 4:
-            console.log('Abril')
+            console.log('Abril');
             break;
         case 5:
-            console.log('Maio')
+            console.log('Maio');
             break;
         case 6:
-            console.log('Junho')
+            console.log('Junho');
             break;
         case 7:
-            console.log('Julho')
+            console.log('Julho');
             break;
         case 8:
-            console.log('Agosto')
+            console.log('Agosto');
             break;
         case 9:
-            console.log('Setembro')
+            console.log('Setembro');
             break;
         case 10:
-            console.log('Outubro')
+            console.log('Outubro');
             break;
         case 11:
-            console.log('Novembro')
+            console.log('Novembro');
             break;
         case 12:
-            console.log('Dezembro')
+            console.log('Dezembro');
             break;
         default:
-            console.log('Mês inválido!')
+            console.log('Mês inválido!');
             break;
     }
     return mes;

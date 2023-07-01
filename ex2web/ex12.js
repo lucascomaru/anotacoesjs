@@ -1,17 +1,16 @@
 function removerPropriedade(objeto, propriedade) {
-  const novoObjeto = { ...objeto };  
-  
-  delete novoObjeto[propriedade];  
-  
-  return novoObjeto;  
+    const novoObjeto = { ...objeto };
+
+    delete novoObjeto[propriedade];
+
+    return novoObjeto;
 }
 
-
 const pessoa = {
-  nome: "João",
-  idade: 30,
-  cidade: "São Paulo"
+    nome: 'João',
+    idade: 30,
+    cidade: 'São Paulo',
 };
 
-const pessoaSemIdade = removerPropriedade(pessoa, "idade");
-console.log(pessoaSemIdade);  
+const pessoaSemIdade = removerPropriedade(pessoa, 'idade');
+console.log(pessoaSemIdade);
