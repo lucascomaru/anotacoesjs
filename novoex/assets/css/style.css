@@ -24,9 +24,6 @@ body {
   background: #fff;
   padding: 20px;
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 form input, form label, form button {
@@ -60,3 +57,7 @@ form button:hover {
   background: var(--primary-color-darker);
 }
 
+.paragrafos p{
+  background-color: rgb(17, 86, 102);
+  color: white;
+}
