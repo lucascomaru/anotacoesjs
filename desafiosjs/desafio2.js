@@ -1,6 +1,6 @@
-let altura = 1.90
-let peso = 90
+let altura = 1.9;
+let peso = 90;
 
-imc = peso/ (altura * altura)
+imc = peso / (altura * altura);
 
-console.log(imc.toFixed(2))
+console.log(imc.toFixed(2));

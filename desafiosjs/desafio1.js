@@ -1,16 +1,16 @@
-function converter(temperatura, temperaturaNum){
-    let resultado = 0
+function converter(temperatura, temperaturaNum) {
+    let resultado = 0;
     switch (temperatura) {
         case 'f':
-            resultado = (temperaturaNum - 32) * 5/9
+            resultado = ((temperaturaNum - 32) * 5) / 9;
             break;
         case 'c':
-            resultado = (temperaturaNum * 9.5) +32
+            resultado = temperaturaNum * 9.5 + 32;
             break;
         default:
-            console.log('Erro no código')
+            console.log('Erro no código');
             break;
     }
-    return resultado
+    return resultado;
 }
-console.log(converter('f', 99))
+console.log(converter('f', 99));

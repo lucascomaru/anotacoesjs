@@ -1,9 +1,9 @@
-function palindromo(string){
-    if(string == string.split("").reverse().join("")){
+function palindromo(string) {
+    if (string == string.split('').reverse().join('')) {
         return true;
-    }else{
+    } else {
         return false;
     }
 }
 
-console.log(palindromo("radar"));
+console.log(palindromo('radar'));

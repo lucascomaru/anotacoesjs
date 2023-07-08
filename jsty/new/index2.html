@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2</title>
+</head>
+<body>
+    <section>
+        <h1>O seu número é: <span id="numero-titulo"></span></h1>
+        <div id="texto"></div>
+    </section>
+    <script>
+        const numero = Number(prompt('Digite seu número: '));
+        const numeroTitulo = document.getElementById('numero-titulo');
+        const texto = document.getElementById('texto');
+
+        numeroTitulo.innerHTML = numero;
+        texto.innerHTML = ''
+        texto.innerHTML += `<p>Seu número é ${numero}</p>`;
+        texto.innerHTML += `<p>${numero} é inteiro: ${Number.isInteger(numero)}</p>`;
+        texto.innerHTML += `<p>É NaN:  ${Number.isNaN(numero)}</p>`;
+        texto.innerHTML += `<p>Arredondado pra baixo:  ${Math.floor(numero)}</p>`;
+        texto.innerHTML += `<p>Arredondado pra cima:  ${Math.ceil(numero)}</p>`;
+        texto.innerHTML += `<p>Com duas casas decimais:  ${numero.toFixed(2)}</p>`;
+    </script>
+</body>
+</html>

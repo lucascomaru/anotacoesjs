@@ -1,7 +1,7 @@
-function verificarPar(num){
-    if(num % 2 == 0){
+function verificarPar(num) {
+    if (num % 2 == 0) {
         return console.log(`Seu número é ${num} e ele é par`);
-    }else{
+    } else {
         return console.log(`Seu número é ${num} e ele é impar`);
     }
 }

@@ -1,24 +1,24 @@
-function calculadora(num1, operacao, num2){
-    resultado = 0
+function calculadora(num1, operacao, num2) {
+    resultado = 0;
     switch (operacao) {
         case '+':
-            resultado = num1 + num2
+            resultado = num1 + num2;
             break;
         case '-':
-            resultado = num1 - num2
+            resultado = num1 - num2;
             break;
         case '*':
-            resultado = num1 * num2
+            resultado = num1 * num2;
             break;
         case '/':
-            resultado = num1 / num2
+            resultado = num1 / num2;
             break;
-    
+
         default:
-            console.log('Essa operação não está disponível')
+            console.log('Essa operação não está disponível');
             break;
     }
-    return resultado
+    return resultado;
 }
 
-console.log(calculadora(4,'/', 5))
+console.log(calculadora(4, '/', 5));
